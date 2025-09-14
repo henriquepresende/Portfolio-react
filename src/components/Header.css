@@ -1,4 +1,4 @@
-/* ===== Navbar ===== */
+
 .navbar {
   background: #0a0a0a;
   color: #fff;
@@ -14,10 +14,10 @@
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
-  
+
 }
 
-/* Logo */
+
 .logo {
   font-size: 1.5rem;
   font-weight: bold;
@@ -25,7 +25,7 @@
   text-decoration: none;
 }
 
-/* Links */
+
 .nav-links {
   display: flex;
   gap: 1.5rem;
@@ -43,7 +43,7 @@
   color: #1DB954;
 }
 
-/* Hamburger */
+
 .hamburger {
   display: none;
   flex-direction: column;
@@ -58,7 +58,7 @@
   transition: 0.3s;
 }
 
-/* Abrir menu */
+
 .hamburger.open span:nth-child(1) {
   transform: rotate(45deg) translate(5px, 5px);
 }
@@ -69,7 +69,7 @@
   transform: rotate(-45deg) translate(5px, -5px);
 }
 
-/* Menu mobile */
+
 @media (max-width: 768px) {
   .hamburger {
     display: flex;
