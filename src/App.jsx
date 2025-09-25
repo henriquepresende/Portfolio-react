@@ -1,13 +1,15 @@
 import React from "react";
 import Header from "./components/Header";
+import Hero from "./components/Hero";
+
 
 function App() {
   return (
     <>
       <Header />
-      <h1>Bem-vindo ao meu portfólio em React 🚀</h1>
+      <Hero />
     </>
-  )
+  );
 }
 
 export default App
